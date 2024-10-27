@@ -1,1 +1,5 @@
-<p style='color:greenyellow'>Comp One</p>
+<script>
+	let data = $props();
+</script>
+
+<p style="color:greenyellow">Comp One {data.test}</p>
